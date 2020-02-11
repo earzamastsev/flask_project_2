@@ -13,20 +13,20 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
-                "14:00": false,
-                "16:00": false,
+                "14:00": true,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
+                "12:00": true,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
@@ -39,27 +39,27 @@
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "fri": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "sat": {
@@ -73,11 +73,11 @@
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
@@ -97,7 +97,7 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -107,33 +107,33 @@
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
-                "18:00": false,
-                "20:00": false,
+                "18:00": true,
+                "20:00": true,
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "fri": {
@@ -142,7 +142,7 @@
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
@@ -151,10 +151,10 @@
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "sun": {
                 "8:00": true,
@@ -163,8 +163,8 @@
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
-                "22:00": false
+                "20:00": true,
+                "22:00": true
             }
         }
     },
@@ -185,23 +185,23 @@
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
@@ -210,10 +210,10 @@
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
+                "12:00": true,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
@@ -224,7 +224,7 @@
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
@@ -237,7 +237,7 @@
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "sun": {
                 "8:00": true,
@@ -246,7 +246,7 @@
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             }
         }
@@ -264,17 +264,17 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
+                "12:00": true,
+                "14:00": true,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -284,49 +284,49 @@
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
-                "16:00": false,
+                "12:00": true,
+                "14:00": true,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "fri": {
                 "8:00": true,
-                "10:00": false,
-                "12:00": false,
+                "10:00": true,
+                "12:00": true,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "sat": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
+                "12:00": true,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
@@ -349,25 +349,25 @@
             "mon": {
                 "8:00": true,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -377,37 +377,37 @@
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "fri": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
             "sat": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -431,30 +431,30 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
+                "12:00": true,
+                "14:00": true,
                 "16:00": false,
-                "18:00": false,
-                "20:00": false,
+                "18:00": true,
+                "20:00": true,
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
-                "18:00": false,
-                "20:00": false,
+                "18:00": true,
+                "20:00": true,
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
+                "12:00": true,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
@@ -471,8 +471,8 @@
                 "22:00": false
             },
             "fri": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
@@ -482,8 +482,8 @@
             },
             "sat": {
                 "8:00": true,
-                "10:00": false,
-                "12:00": false,
+                "10:00": true,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
@@ -493,7 +493,7 @@
             "sun": {
                 "8:00": true,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
@@ -516,49 +516,49 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "tue": {
                 "8:00": true,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "fri": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
@@ -566,22 +566,22 @@
                 "22:00": false
             },
             "sat": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             }
@@ -600,7 +600,7 @@
         "free": {
             "mon": {
                 "8:00": true,
-                "10:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
@@ -609,40 +609,40 @@
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": false,
-                "16:00": false,
+                "14:00": true,
+                "16:00": true,
                 "18:00": false,
-                "20:00": false,
-                "22:00": false
+                "20:00": true,
+                "22:00": true
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "fri": {
                 "8:00": true,
-                "10:00": false,
+                "10:00": true,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
@@ -651,7 +651,7 @@
             "sat": {
                 "8:00": true,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
@@ -659,14 +659,14 @@
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
-                "18:00": false,
-                "20:00": false,
-                "22:00": false
+                "16:00": true,
+                "18:00": true,
+                "20:00": true,
+                "22:00": true
             }
         }
     },
@@ -683,34 +683,34 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
-                "14:00": false,
-                "16:00": false,
+                "12:00": true,
+                "14:00": true,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
-                "10:00": false,
-                "12:00": false,
+                "8:00": false,
+                "10:00": true,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "thu": {
                 "8:00": true,
@@ -719,37 +719,37 @@
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "fri": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "sat": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             }
         }
@@ -766,7 +766,7 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -776,63 +776,63 @@
                 "22:00": false
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "fri": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "sat": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
-                "18:00": false,
-                "20:00": false,
+                "18:00": true,
+                "20:00": true,
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             }
         }
@@ -851,46 +851,36 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
-                "12:00": false,
+                "12:00": true,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
-                "20:00": false,
+                "20:00": true,
                 "22:00": false
             },
             "wed": {
                 "8:00": true,
                 "10:00": false,
-                "12:00": true,
+                "12:00": false,
                 "14:00": false,
                 "16:00": true,
-                "18:00": false,
+                "18:00": true,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "thu": {
-                "8:00": true,
-                "10:00": false,
-                "12:00": true,
-                "14:00": false,
-                "16:00": false,
-                "18:00": false,
-                "20:00": false,
-                "22:00": false
-            },
-            "fri": {
                 "8:00": false,
                 "10:00": false,
                 "12:00": false,
@@ -900,21 +890,31 @@
                 "20:00": false,
                 "22:00": false
             },
-            "sat": {
-                "8:00": true,
-                "10:00": false,
+            "fri": {
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,
                 "18:00": false,
+                "20:00": true,
+                "22:00": true
+            },
+            "sat": {
+                "8:00": false,
+                "10:00": true,
+                "12:00": false,
+                "14:00": false,
+                "16:00": false,
+                "18:00": true,
                 "20:00": false,
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": true,
+                "14:00": false,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
@@ -935,17 +935,17 @@
         ],
         "free": {
             "mon": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
-                "22:00": false
+                "22:00": true
             },
             "tue": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -955,17 +955,17 @@
                 "22:00": false
             },
             "wed": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "thu": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
@@ -975,28 +975,28 @@
                 "22:00": false
             },
             "fri": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
-                "14:00": false,
+                "14:00": true,
                 "16:00": false,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "sat": {
-                "8:00": true,
+                "8:00": false,
                 "10:00": false,
                 "12:00": false,
                 "14:00": false,
-                "16:00": false,
+                "16:00": true,
                 "18:00": false,
                 "20:00": false,
                 "22:00": false
             },
             "sun": {
-                "8:00": true,
-                "10:00": false,
+                "8:00": false,
+                "10:00": true,
                 "12:00": false,
                 "14:00": false,
                 "16:00": false,

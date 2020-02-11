@@ -322,6 +322,12 @@ teachers = [
 ]
 
 import json
+import random
+
+for teacher in teachers:
+    for day, value in teacher['free'].items():
+        for time in value:
+            value[time] = bool(random.choices([0, 1], weights=[4, 1])[0])
 
 with open('teachers.json', 'w') as f:
     json.dump(teachers, f, indent=4)
