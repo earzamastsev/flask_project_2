@@ -1,10 +1,17 @@
 from  flask import Flask
 from flask import render_template
 from flask import request
-from data import *
+import json
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
+
+
+# ==== start loading MOSK-data ====
+goals = {"travel": "Для путешествий", "study": "Для учебы", "work": "Для работы", "relocate": "Для переезда"}
+with open('teachers.json', 'r') as f:
+    teachers = json.load(f)
+# ==== end loading MOSK-data ====
 
 @app.route('/')
 def index():

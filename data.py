@@ -320,3 +320,12 @@ teachers = [
         }
     },
 ]
+
+import json
+
+with open('teachers.json', 'w') as f:
+    json.dump(teachers, f, indent=4)
+
+
+
+
