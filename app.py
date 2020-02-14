@@ -6,6 +6,7 @@ import random
 from  os import path
 
 
+
 app = Flask(__name__)
 app.config['DEBUG'] = True
 

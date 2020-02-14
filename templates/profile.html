@@ -26,15 +26,15 @@
             <section class="available">
 
               <h4 class="mb-4 mt-5">Записаться на пробный урок</h4>
-              {% set i = 1 %}
               {% for day,times in teacher['free'].items() %}
                 <h6 class="mt-4">{{ weekdays[day] }}</h6>
-                {% for time, status in times.items() %}
-                  {% if status == True %}
+                {% if True in times.values() %}
+                  {% for time, status in times.items() %}
                     <a href="/booking/{{teacher['id']}}/{{day}}/{{time|replace(':00','')}}" class="btn btn-outline-success mr-2">{{ time }} свободно</a>
-                  {% endif %}
-                {% endfor %}
-
+                  {% endfor %}
+                {% else %}
+                    <p> Нет свободных мест </p>
+                {% endif %}
               {% endfor %}
 
             </section>
