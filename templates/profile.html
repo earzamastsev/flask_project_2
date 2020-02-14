@@ -30,7 +30,9 @@
                 <h6 class="mt-4">{{ weekdays[day] }}</h6>
                 {% if True in times.values() %}
                   {% for time, status in times.items() %}
+                    {% if status==True %}
                     <a href="/booking/{{teacher['id']}}/{{day}}/{{time|replace(':00','')}}" class="btn btn-outline-success mr-2">{{ time }} свободно</a>
+                    {% endif %}
                   {% endfor %}
                 {% else %}
                     <p> Нет свободных мест </p>
